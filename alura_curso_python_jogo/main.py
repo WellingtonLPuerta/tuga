@@ -8,6 +8,8 @@ n_secret = 57
 # obs: o código fica ligado até o valor ser inserido, depois de inserido
 # o código segue a compilação
 
+
+
 n_kick = int(input("Enter the number:"))
 
 print("The number sent is:",n_kick)
@@ -15,4 +17,7 @@ print("The number sent is:",n_kick)
 if (n_secret == n_kick):
     print("You win !")
 else:
-    print("You loser !")    
+    if (n_kick > n_secret):
+        print("Your kick is above the secret value")   
+    if (n_kick < n_secret):
+        print("Your kick is below the secret value")

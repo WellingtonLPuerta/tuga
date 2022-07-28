@@ -31,5 +31,5 @@ if (hit):
 else:
     if (above):
         print("Your kick is above the secret value")   
-    if (below):
+    elif (below):
         print("Your kick is below the secret value")

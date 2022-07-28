@@ -12,12 +12,24 @@ n_secret = 57
 
 n_kick = int(input("Enter the number:"))
 
+
+###################################
+# isolating the conditions
+###################################
+
+hit   = (n_secret == n_kick)
+above = (n_kick > n_secret)
+below = (n_kick < n_secret)
+
+###################################
+# code
+###################################
 print("The number sent is:",n_kick)
 
-if (n_secret == n_kick):
+if (hit):
     print("You win !")
 else:
-    if (n_kick > n_secret):
+    if (above):
         print("Your kick is above the secret value")   
-    if (n_kick < n_secret):
+    if (below):
         print("Your kick is below the secret value")

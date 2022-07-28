@@ -28,3 +28,17 @@ else:
     print('Não um triangulo dado o problema em questão');   
 
 
+############
+ #array = [7,1,5]
+    
+if array[0]<(array[1]+array[2]):
+    if array[0]<(array[1]+array[2]):
+        if array[0]<(array[1]+array[2]):
+            print('É um triangulo dado o problema em questão')
+        else:
+            print('Não um triangulo dado o problema em questão')
+    else:
+        print('Não um triangulo dado o problema em questão')
+else:
+    print('Não um triangulo dado o problema em questão')
+                

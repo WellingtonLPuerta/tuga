@@ -51,3 +51,4 @@ for game  in range(1,n_try+1):
             print("Your kick is below the secret value")      
     
  #   game = game + 1
+print("The end game.")

@@ -20,7 +20,7 @@ game = 1
 while (game <= n_try):
     print("The number the tray is:", n_try)
 
-    print("Game", game, "of",n_try)
+    print("Game {} of {}.".format(game,n_try))
 ###################################
 # kick
 ###################################
@@ -32,7 +32,7 @@ while (game <= n_try):
 # isolating the conditions
 ###################################
 
-    hit = (n_secret == n_kick)
+    hit   = (n_secret == n_kick)
     above = (n_kick > n_secret)
     below = (n_kick < n_secret)
 
@@ -47,6 +47,6 @@ while (game <= n_try):
         if (above):
             print("Your kick is above the secret value")
         elif (below):
-            print("Your kick is below the secret value")
-            
-    game = n_try - 1
+            print("Your kick is below the secret value")      
+    
+    game = game + 1

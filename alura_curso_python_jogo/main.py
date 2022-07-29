@@ -8,7 +8,7 @@ n_secret = 57
 # n try
 ###################################
 n_try = 3
-
+game = 1
 
 # a função input permite que o usuário digite o input.
 # obs: o código fica ligado até o valor ser inserido, depois de inserido
@@ -17,8 +17,10 @@ n_try = 3
 ###################################
 # while
 ###################################
-while (n_try > 0):
+while (game <= n_try):
     print("The number the tray is:", n_try)
+
+    print("Game", game, "of",n_try)
 ###################################
 # kick
 ###################################
@@ -46,4 +48,5 @@ while (n_try > 0):
             print("Your kick is above the secret value")
         elif (below):
             print("Your kick is below the secret value")
-    n_try = n_try - 1
+            
+    game = n_try - 1

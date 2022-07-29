@@ -43,6 +43,7 @@ for game  in range(1,n_try+1):
 
     if (hit):
         print("You win !")
+        break #sai do laço    
     else:
         if (above):
             print("Your kick is above the secret value")

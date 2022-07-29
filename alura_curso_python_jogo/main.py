@@ -25,9 +25,12 @@ for game  in range(1,n_try+1):
 # kick
 ###################################
 
-    n_kick = int(input("Enter the number:"))
+    n_kick = int(input("Enter the number (input between 1 and 100):"))
 
-
+    if (n_kick < 1 or n_kick >100):
+        print("The number have to be between 1 and 100 !")
+    continue
+    
 ###################################
 # isolating the conditions
 ###################################

@@ -1,9 +1,13 @@
+import random
+
 print("#################################")
 print("Welcome to the of divination!")
 print("#################################")
 
-n_secret = 57
+#n_secret = 57
 
+n_secret = random.randrange(1,101)
+#print(n_secret)
 ###################################
 # n try
 ###################################
@@ -30,7 +34,7 @@ for game  in range(1,n_try+1):
     if (n_kick < 1 or n_kick >100):
         print("The number have to be between 1 and 100 !")
     continue
-    
+
 ###################################
 # isolating the conditions
 ###################################

@@ -1,5 +1,5 @@
 
-def jogar_forca():
+def game_forca():
     print("#################################")
     print("Welcome to the of forca!")
     print("#################################")

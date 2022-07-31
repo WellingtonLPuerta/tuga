@@ -1,5 +1,3 @@
-import forca
-import main
 
 print("#################################")
 print("Welcome to the Games !")

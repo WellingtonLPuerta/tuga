@@ -14,7 +14,7 @@ print(n_secret)
 n_try = 3
 #game = 1
 total_n_try = 0
-
+point_begin = 1000
 
 ###################################
 # select nivel game
@@ -64,12 +64,16 @@ for game in range(1, total_n_try+1):
 
     if (hit):
         print("You win !")
+        print("points {}".format(point_begin))
         break  # sai do laço
     else:
         if (above):
             print("Your kick is above the secret value")
         elif (below):
             print("Your kick is below the secret value")
+        point_looser = abs(n_secret - n_kick)
+        point_begin = point_begin - point_looser
+
 
  #   game = game + 1
 print("The end game.")

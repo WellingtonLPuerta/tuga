@@ -1,4 +1,7 @@
 
+import forca
+import adivinhacao
+
 print("#################################")
 print("Welcome to the Games !")
 print("#################################")
@@ -8,5 +11,8 @@ game_select = int(input("(1)Adivinhacao (2)Foca."))
 
 if (game_select == 1):
     print("Select Adivinhacao.")
+    adivinhacao.game_adivinhacao()
+
 elif (game_select == 2):
     print("Select Forca.") 
+    forca.game_forca()

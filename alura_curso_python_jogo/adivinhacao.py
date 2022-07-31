@@ -79,3 +79,6 @@ def game():
 
     #   game = game + 1
     print("The end game.")
+
+if (__name__ == "__main__"):
+    game()   

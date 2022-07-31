@@ -5,3 +5,6 @@ def game():
     print("#################################")
 
     print("End game")
+    
+if (__name__ == "__main__"):
+    game()   

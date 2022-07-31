@@ -4,4 +4,4 @@ def jogar_forca():
     print("Welcome to the of forca!")
     print("#################################")
 
-     print("End game")
+    print("End game")

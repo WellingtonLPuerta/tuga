@@ -2,17 +2,22 @@
 import forca
 import adivinhacao
 
-print("#################################")
-print("Welcome to the Games !")
-print("#################################")
+def select_game():
 
-print("Choose your game end play")
-game_select = int(input("(1)Adivinhacao (2)Foca."))
+    print("#################################")
+    print("Welcome to the Games !")
+    print("#################################")
 
-if (game_select == 1):
-    print("Select Adivinhacao.")
-    adivinhacao.game()
+    print("Choose your game end play")
+    game_select = int(input("(1)Adivinhacao (2)Foca."))
 
-elif (game_select == 2):
-    print("Select Forca.") 
-    forca.game()
+    if (game_select == 1):
+        print("Select Adivinhacao.")
+        adivinhacao.game()
+
+    elif (game_select == 2):
+        print("Select Forca.") 
+        forca.game()
+
+if (__name__ =="__main__"):
+    select_game()      

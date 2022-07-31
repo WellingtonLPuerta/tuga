@@ -11,8 +11,8 @@ game_select = int(input("(1)Adivinhacao (2)Foca."))
 
 if (game_select == 1):
     print("Select Adivinhacao.")
-    adivinhacao.game_adivinhacao()
+    adivinhacao.game()
 
 elif (game_select == 2):
     print("Select Forca.") 
-    forca.game_forca()
+    forca.game()

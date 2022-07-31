@@ -1,6 +1,6 @@
 import random
 
-def game_adivinhacao():
+def game():
 
     print("#################################")
     print("Welcome to the of divination!")

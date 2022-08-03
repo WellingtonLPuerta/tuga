@@ -11,7 +11,7 @@ def game():
 
     while (not hanged and not hit):
 
-        letter_kick = input("Report the letter:").lower()
+        letter_kick = input("Report the letter:").lower().strip()
         #print(letter_kick)
 
         index = 0 

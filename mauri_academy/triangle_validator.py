@@ -11,19 +11,18 @@ for i in range(0,len(array )):
 
 print("The vector write is {}".format(array))
 
-win = "This is a triangle"
-lose = "Not is a triangle"
-
-#while (win)
+win = 'The values write stisfy the problem it. Its a triangle !'
+lose = 'The values weite not stisfy the problem it.'
     
 if array[0]<(array[1]+array[2]):
     if array[0]<(array[1]+array[2]):
         if array[0]<(array[1]+array[2]):
-            print('The values write stisfy the problem it. Its a triangle !')
+            print(win)
         else:
-            print('The values weite not stisfy the problem it.')
+            print(lose)
     else:
-        print('The values weite not stisfy the problem it.')
+        print(lose)
 else:
-    print('The values weite not stisfy the problem it.')
+    print(lose)
+    
                 

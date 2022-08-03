@@ -10,9 +10,14 @@ def game():
     hit = False
 
     while (not hanged and not hit):
-        letter_kick = input("Report the letter:")
+
+        letter_kick = input("Report the letter:").lower()
+        #print(letter_kick)
+
         index = 0 
+        
         for word_list in word_secret:
+            
             if(letter_kick == word_list):
                 print("Found word {} in position {}".format(letter_kick,index))
             index = index + 1            

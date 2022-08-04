@@ -5,6 +5,7 @@ def game():
     print("#################################")
 
     word_secret = "banana"
+    words_right = ["_", "_", "_", "_", "_", "_"]
 
     hanged = False
     hit = False
@@ -20,7 +21,9 @@ def game():
             
             if(letter_kick == word_list):
                 print("Found word {} in position {}".format(letter_kick,index))
-            index = index + 1            
+                words_right[index] = letter_kick
+            index = index + 1       
+        print(words_right)     
         
         print("Playing")
     

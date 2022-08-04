@@ -23,7 +23,8 @@ def game():
                 print("Found word {} in position {}".format(letter_kick,index))
                 words_right[index] = letter_kick
             index = index + 1       
-        print(words_right)     
+        print(words_right)  
+        print("Missing letters {}".format(words_right.count('_')))   
         
         print("Playing")
     

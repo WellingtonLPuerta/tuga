@@ -2,8 +2,6 @@ print("###################################")
 print("######## Triangle validator #######")
 print("###################################")
 
-
-
 array = [0,0,0]
 
 for i in range(0,len(array )):

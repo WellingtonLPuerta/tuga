@@ -9,6 +9,7 @@ for i in range(0,len(array )):
 
 print("The vector write is {}".format(array))
 
+### inside the text if it's a valid triangle.
 win = 'The values write stisfy the problem it. Its a triangle !'
 lose = 'The values weite not stisfy the problem it.'
     
